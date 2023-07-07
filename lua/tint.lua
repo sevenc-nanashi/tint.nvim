@@ -483,10 +483,6 @@ tint.setup = function(user_config)
     return
   end
 
-  if __.user_config then
-    return
-  end
-
   __.user_config = user_config
 
   on_or_after_vimenter(__.setup_callback)
